@@ -1,0 +1,25 @@
+table {
+    width: 400px;
+  }
+  
+  table, tr {
+    border: 1px solid black; 
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .picture {
+    background-image: url(img/americanflag.jpg);
+    height: 440px;
+    width: 596px;
+  }
+  
+  
+  tr {
+    height:63px;
+  }
+  
+  tr:nth-child(odd) {
+    background-color: red;
+  }
+  
